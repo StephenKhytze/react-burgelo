@@ -124,3 +124,7 @@ body {
     .home__menu .pop__promos .pop__promos__item a:hover {
         @apply bg-white text-primary;
     }
+
+    .banner .banner__text a:hover {
+        @apply lg:text-primary lg:bg-white;
+    }

@@ -4,7 +4,7 @@ import Home from './Home';
 function App() {
   return (
     <div>
-      <nav>...</nav> {/* Navigation links */}
+      {/* <nav>...</nav> Navigation links */}
       <Routes>
         <Route path="/home" element={<Home/>} />
         {/* Optional: Add a catch-all route for 404 pages */}
